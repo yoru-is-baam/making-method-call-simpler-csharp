@@ -7,9 +7,11 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "rename-method", "rename-met
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "add-parameter", "add-parameter\add-parameter.csproj", "{C7BB8A2D-F4C4-426D-BC27-45FEC419C75F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "remove-parameter", "remove-parameter\remove-parameter.csproj", "{EFB48D99-CEF4-4264-96FB-6E11B272F125}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "remove-parameter", "remove-parameter\remove-parameter.csproj", "{EFB48D99-CEF4-4264-96FB-6E11B272F125}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "separate-query-from-modifier", "separate-query-from-modifier\separate-query-from-modifier.csproj", "{FECBC960-FD45-4D8B-B75E-A4899688D6B8}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "separate-query-from-modifier", "separate-query-from-modifier\separate-query-from-modifier.csproj", "{FECBC960-FD45-4D8B-B75E-A4899688D6B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "parameterize-method", "parameterize-method\parameterize-method.csproj", "{F42CF4D5-4230-44A7-9856-133B99FF4965}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -33,6 +35,10 @@ Global
 		{FECBC960-FD45-4D8B-B75E-A4899688D6B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{FECBC960-FD45-4D8B-B75E-A4899688D6B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{FECBC960-FD45-4D8B-B75E-A4899688D6B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F42CF4D5-4230-44A7-9856-133B99FF4965}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F42CF4D5-4230-44A7-9856-133B99FF4965}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F42CF4D5-4230-44A7-9856-133B99FF4965}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F42CF4D5-4230-44A7-9856-133B99FF4965}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
