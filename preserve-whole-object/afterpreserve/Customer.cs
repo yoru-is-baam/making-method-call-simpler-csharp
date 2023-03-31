@@ -1,4 +1,4 @@
-﻿namespace preserve_whole_object.beforepreserve
+﻿namespace preserve_whole_object.afterpreserve
 {
 	internal class Customer
 	{
@@ -11,9 +11,7 @@
 
 		public bool IsWithinDeliveryRange(Restaurant restaurant)
 		{
-			int customerZipCode = address.ZipCode;
-			int customerAreaCode = address.AreaCode;
-			return restaurant.IsWithinDeliveryRange(customerZipCode, customerAreaCode);
+			return restaurant.IsWithinDeliveryRange(address);
 		}
 	}
 }

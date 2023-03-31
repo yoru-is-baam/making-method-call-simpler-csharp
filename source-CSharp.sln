@@ -13,11 +13,19 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "separate-query-from-modifie
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "parameterize-method", "parameterize-method\parameterize-method.csproj", "{F42CF4D5-4230-44A7-9856-133B99FF4965}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "replace-parameter-with-explicit-methods", "replace-parameter-with-explicit-methods\replace-parameter-with-explicit-methods.csproj", "{A94544AB-A389-4F64-A509-19B436CAD711}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "replace-parameter-with-explicit-methods", "replace-parameter-with-explicit-methods\replace-parameter-with-explicit-methods.csproj", "{A94544AB-A389-4F64-A509-19B436CAD711}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "preserve-whole-object", "preserve-whole-object\preserve-whole-object.csproj", "{6C0B9E4A-72E8-4BBA-80E9-DB43F8D56922}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "preserve-whole-object", "preserve-whole-object\preserve-whole-object.csproj", "{6C0B9E4A-72E8-4BBA-80E9-DB43F8D56922}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "replace-parameter-with-method-call", "replace-parameter-with-method-call\replace-parameter-with-method-call.csproj", "{006EF3EF-678D-4508-B64E-9670F2EC09CC}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "replace-parameter-with-method-call", "replace-parameter-with-method-call\replace-parameter-with-method-call.csproj", "{006EF3EF-678D-4508-B64E-9670F2EC09CC}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "introduce-parameter-object", "introduce-parameter-object\introduce-parameter-object.csproj", "{153F13BF-5C79-4760-8A0C-6AB90AD869CB}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "remove-setting-method", "remove-setting-method\remove-setting-method.csproj", "{902647F9-093B-492A-A237-582FB009E950}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "hide-method", "hide-method\hide-method.csproj", "{C35BCE3D-1601-41DE-B370-91DE13DF62B1}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "replace-constructor-with-factory-method", "replace-constructor-with-factory-method\replace-constructor-with-factory-method.csproj", "{0E90CA29-E215-429D-809F-160B56691E55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +65,22 @@ Global
 		{006EF3EF-678D-4508-B64E-9670F2EC09CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{006EF3EF-678D-4508-B64E-9670F2EC09CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{006EF3EF-678D-4508-B64E-9670F2EC09CC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{153F13BF-5C79-4760-8A0C-6AB90AD869CB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{153F13BF-5C79-4760-8A0C-6AB90AD869CB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{153F13BF-5C79-4760-8A0C-6AB90AD869CB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{153F13BF-5C79-4760-8A0C-6AB90AD869CB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{902647F9-093B-492A-A237-582FB009E950}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{902647F9-093B-492A-A237-582FB009E950}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{902647F9-093B-492A-A237-582FB009E950}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{902647F9-093B-492A-A237-582FB009E950}.Release|Any CPU.Build.0 = Release|Any CPU
+		{C35BCE3D-1601-41DE-B370-91DE13DF62B1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{C35BCE3D-1601-41DE-B370-91DE13DF62B1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{C35BCE3D-1601-41DE-B370-91DE13DF62B1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{C35BCE3D-1601-41DE-B370-91DE13DF62B1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E90CA29-E215-429D-809F-160B56691E55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E90CA29-E215-429D-809F-160B56691E55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E90CA29-E215-429D-809F-160B56691E55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E90CA29-E215-429D-809F-160B56691E55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

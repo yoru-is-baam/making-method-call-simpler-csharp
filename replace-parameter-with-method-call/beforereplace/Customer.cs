@@ -1,6 +1,4 @@
-﻿using System.Net;
-
-namespace replace_parameter_with_method_call.beforereplace
+﻿namespace replace_parameter_with_method_call.beforereplace
 {
 	internal class Customer
 	{
